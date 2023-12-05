@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Les formulaires HTML et JavaScript</title>
+        <link href="style1.css" rel="stylesheet" type="text/css"/>
+    </head>
+        <body>
+        <div class="form-row">
+            <input type="text" name="text" id="text" class="inputPinkOnFocus">
+            <input type="textarea" name="textarea" id="textarea" class="inputPinkOnFocus">
+            <input type="password" name="password" id="password" class="inputPinkOnFocus">
+        </div>
+        <label for="check">Cochez-moi</label>
+        <input type="checkbox" id="check" name="check">
+
+        <input type="radio" name="gender" value="Femme">Femme
+        <input type="radio" name="gender" value="Homme">Homme
+
+        <label for="language">Langage :</label>
+        <select name="language" id="language">
+            <option value="javascript" selected>JavaScript</option>
+            <option value="php">PHP</option>
+            <option value="python">Python</option>
+        </select>
+    <script src="script1.js"></script>
+    </body>
+</html>

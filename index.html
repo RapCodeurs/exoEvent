@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    <button id="button" style="background-color: green; color: white;">Connexion</button>
+
+    <code>
+        <section id="super-parent">
+          section
+            <div id="parent">
+                    div
+                    <h1 id="enfant">h1</h1>
+            
+            </div>
+        </section>
+        <style>
+        .border-padding, h1, div, section {
+          border: 8px solid transparent;
+          padding: 20px;
+          text-align: center;
+        }
+        
+        section {
+          border-color: black;
+        }
+        
+        div {
+          border-color: #1b97e1;
+        }
+        
+        h1 {
+          border-color: rgba(0, 133, 254, 0.44);
+        }
+        
+        </style>
+        
+    <code>
+
+    <script src="script.js">
+       /* 
+        for (let element of document.querySelectorAll('*')) {
+        element.addEventListener("click", (event) => {
+            event.stopPropagation();
+            alert(` Capturing the element: ${element.tagName}`)
+        }, false);
+        }
+        */
+    </script>
+</body>
+</html>
